@@ -22,10 +22,11 @@ class CurrentWeatherDataSource(
 ) {
 
     val currentWeather: Flow<CurrentWeatherData> = flow {
+
         while (true) {
 
-            val targetCity = sharedPreference.getDefaultCity()
             val completion = CompletableDeferred<CurrentWeatherData>()
+            val targetCity = sharedPreference.getDefaultCity()
             val response = apiService.getCurrentWeather(targetCity)
 
             if (response.isSuccessful) {

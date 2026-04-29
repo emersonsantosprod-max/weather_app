@@ -12,8 +12,7 @@ class CurrentWeatherRepository(
 ) {
 
     val currentWeather: Flow<CurrentWeatherData> =
-        currentWeatherDataSource.currentWeather
-            .onEach { data ->
+        currentWeatherDataSource.currentWeather.onEach { data ->
                 saveCurrentWeather(data)
             }
 
