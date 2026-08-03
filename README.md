@@ -51,7 +51,7 @@ Faça o download da <a href="apk/tempus.apk?raw=true">APK diretamente</a>. Você
 - Arquitetura
   - MVVM (View - ViewModel - Model)
   - Comunicação da ViewModel com a View através de Kotlin State Flow e LiveData.
-  - Comunicação da ViewModel com a Model atráves de retornos lambda e KOtlin State Flow.
+  - Comunicação da ViewModel com a Model atráves de retornos lambda e Kotlin State Flow.
   - Repositories para abstração da comunidação com a camada de dados.
   - Data Source para abstração das requisições REST.
   
