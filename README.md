@@ -34,7 +34,7 @@ Faça o download da <a href="apk/tempus.apk?raw=true">APK diretamente</a>. Você
 - Minimum SDK level 26
 - [Linguagem Kotlin](https://kotlinlang.org/)
 
-- Jetpack - LISTE O MÁXIMO DE COMPONENTES DO JETPACK QUE VOCÊ USA
+- Jetpack
   - Custom Views: View customizadas feitas do zero usando XML.
   - ViewBinding: Liga os componentes do XML no Kotlin através de uma classe que garante segurança de tipo e outras vantagens.
   - RecyclerView: View customizada para exibição de listas dinâmicas.
