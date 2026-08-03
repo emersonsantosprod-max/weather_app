@@ -48,14 +48,14 @@ Faça o download da <a href="apk/tempus.apk?raw=true">APK diretamente</a>. Você
   
   - [...]
 
-- Arquitetura -
+- Arquitetura
   - MVVM (View - ViewModel - Model)
   - Comunicação da ViewModel com a View através de Kotlin State Flow e LiveData.
   - Comunicação da ViewModel com a Model atráves de retornos lambda e KOtlin State Flow.
   - Repositories para abstração da comunidação com a camada de dados.
   - Data Source para abstração das requisições REST.
   
-- Bibliotecas -
+- Bibliotecas
   - [Places](https://developers.google.com/maps/documentation/places/android-sdk?hl=pt-br): Para os serviços de localização do Google.
   - [Koin](https://insert-koin.io/docs/quickstart/android/): Para injeção de dependência.
   - [ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP): biblioteca Java que oferece classes de data e hora para Android, incluindo suporte ao UTC e ao fuso horário.
@@ -75,7 +75,7 @@ Faça o download da <a href="apk/tempus.apk?raw=true">APK diretamente</a>. Você
 
 - Tempus usa:<br>
   - [OpenWeatherAPI](https://openweathermap.org/api) para suas chamadas REST.<br>
-  - [AppIntro](https://github.com/AppIntro/AppIntro) do usuário do Github[AppIntroTeam](https://github.com/AppIntro): Para criar uma introdução em carrosel para o aplicativo.<br>
+  - [AppIntro](https://github.com/AppIntro/AppIntro) do usuário do Github [AppIntroTeam](https://github.com/AppIntro): Para criar uma introdução em carrossel para o aplicativo.<br>
 
 ## Features
 
